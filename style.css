@@ -1,11 +1,20 @@
 /*add a:visited & hover styling */
 
 
-/*quote styling */
-.quote { 
-    float: right; 
+/*quote & Header styling */
+.quote, h1 {  
     display: block; 
+    width:100%; 
+}
 
+.quote { 
+    margin: 0px;
+    text-align: center; 
+    display: inline; 
+}
+
+header { 
+  margin-bottom: 50px; 
 }
 /*navigation styling---*/
 
@@ -14,6 +23,7 @@
     margin: 0;
     padding: 0;
     display: inline; 
+    font-size: 20px; 
    
 }
 
@@ -28,6 +38,8 @@
     margin-left: 20px;
     text-align: center;  
 
+/*Social Buttons styling */
+
 }
 .social-buttons{
 width: 100%; 
@@ -38,20 +50,37 @@ text-align: center;
     display: inline;
     padding: 5px;
     margin: 5px; 
-    font-size: 25px !important; 
+    font-size: 30px !important; 
+}
+/*General Section styling */
+#about-section { 
+    margin: 20px 20px 50px 20px !important;
+    padding: 5px; 
+}
+#timeline{ 
+    margin-bottom:50px;
 }
 
-h1 {
-  margin-left: 10px;
-  margin-right: 0 !important; 
-  padding: 10px 0 10px 0; 
+#portfolio{ 
+    margin: 20px 20px 50px 20px !important;}
+
+#contact-section{ 
+    margin: 20px 20px 50px 20px !important;}
+
+h2 {
+   margin: 10px;
+   padding: 0 10px 0 10px; 
+   border: 5px solid #db5940; border-radius: 50px;  
+   text-align: center; 
+   font-size:35px; 
  
 }
 
-h2 { 
+h3 { 
 text-align: center; 
 padding: 10px 0 10px 0; 
-color: #db5940;   
+color: #db5940;  
+font-size: 30px;  
 }
 
 h3{ 
@@ -85,21 +114,21 @@ border-radius:50%;
   display: block; 
 }
 
-.timeline { 
+#timeline { 
 background-color: #23527C;
   padding: 10px; 
 }
 
-.timeline ul li { 
+#timeline ul li { 
 list-style-type: none; 
    position: relative; 
   width: 8px; 
   margin: 30px auto; 
   padding-top :50px;
-  background: #fff; 
+  background: #ffeb00; 
 }
 
-.timeline ul li::after{ 
+#timeline ul li::after{ 
   content: ''; 
   position: absolute; 
   left:  50%; 
@@ -110,15 +139,15 @@ border-radius:50%;
  transform: translateX(-50%); 
 }
 
-.timeline ul li div { 
+#timeline ul li div { 
 position: relative;
 bottom: -30px; 
 width: 300px; 
 padding: 20px; 
-background: #F45 
+background: #F45;  
 }
 
-.timeline div::before {
+#timeline div::before {
   content: ''; 
   position: absolute; 
   bottom: 7px; 
@@ -127,21 +156,21 @@ background: #F45
   border-style: solid; 
 }
 
-.timeline ul li:nth-child(odd) div{ 
+#timeline ul li:nth-child(odd) div{ 
 left: 45px; 
 }
 
-.timeline:nth-child(odd) div::before {
+#timeline:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #F45 transparent transparent;
 }
 
-.timeline ul li:nth-child(even) div{ 
+#timeline ul li:nth-child(even) div{ 
 left: -375px; 
 }
 
-.timeline ul li:nth-child(even) div::before{ 
+#timeline ul li:nth-child(even) div::before{ 
   left: 340px; 
   border-width: 8px 0 8px 15px; 
   border-color: transparent transparent transparent #F45; 
@@ -149,28 +178,20 @@ left: -375px;
 
 
 /*Portfolio section styling */
-
-#portfolio ul { 
-  display: inline; 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;   
+.port-cols table { 
+  width: 100%; 
+}
+.port-cols td { 
+  text-align: center; 
+  border: 25px solid transparent; 
+  border-collapse: separate; 
 }
 
-#portfolio li { 
-  list-style-type: none;
-  display: inline; 
-  margin: 5px; 
-  padding: 5px; 
+.port-cols img {  
+  width: 100%; 
+  text-align: center; 
+  
 }
-
-{
-  display: block; 
-  position: relative; 
-}
-
-/
 
 .footer {
 background-color: #23527C; 

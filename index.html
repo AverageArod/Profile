@@ -9,22 +9,29 @@
  <!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+
     <body>
-        <header>
-            <h1> Anthony Rodriguez</h1>
-      <div class="quote">
-        Conscious marketing for small business
-      </div>
+      <header>
+        <table style="width:100%">
+          <tr>
+          <th><h1> Anthony Rodriguez</h1></th>
+          <td><span class="quote"><strong><i><figure><figcaption> User-centric Growth marketing for small business</figcaption></figure></i></strong></span> 
+          </td>
+          </tr>
+  
+        </table>
+      </header>
+      
 <!--Menu items-->
       <div class = "nav-menu">      
           <ul> 
         <li><a href="#about-section"> About</a></li>
 
         <li><a 
-        href="#timeline-section">Journey</a></li>  
+        href="#timeline">Journey</a></li>  
 
-        <li><a href="#portfolio-section"> Portfolio</a></li>          
-        <li><a href="#contact-section"> Hire me</a></li>  
+        <li><a href="#portfolio"> Portfolio</a></li>          
+        <li><a href="#contact-section"> Hire Me</a></li>  
             </ul>
       </div>
          </header>
@@ -54,19 +61,19 @@
             </div>  
             </div>      
         </section>
-      <h1>
-      Businesss Developer & Experience Designer
-      </h1> 
+      <h2>
+      Businesss Developer / Experience Designer
+      </h2> 
 <!--Bio section-->
     <div id="about-section"> 
-      <h2> About Me </h2> 
+      <h3> About Me </h3> 
         <article> 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam illud vehementer repugnat, eundem beatum esse et multis malis oppressum. Cetera illa adhibebat, quibus demptis negat se Epicurus intellegere quid sit bonum. Illi enim inter se dissentiunt. Estne, quaeso, inquam, sitienti in bibendo voluptas? Duo Reges: constructio interrete. Qua igitur re ab deo vincitur, si aeternitate non vincitur? Non est ista, inquam, Piso, magna dissensio. Non igitur de improbo, sed de callido improbo quaerimus, qualis Q. Quis est, qui non oderit libidinosam, protervam adolescentiam? Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas.
        </article> 
-    </div> 
+  </div> 
 <!--Journey timeline--> 
-     <section class="timeline">
-       <div id="timeline-section"> 
+     <div id="timeline">
+       <!--<div id="timeline-section"> -->
       <div class="timeline-text">
         Timeline & achievements
       </div>
@@ -122,39 +129,51 @@
           </div>
         </li>
       </ul>
-      </div> 
-    </section>
+     
+    </div>
 
 <!---Portfolio     -->
     <div id="portfolio"> 
-      <h2>Portfolio</h2> 
-      <ul> 
+      <h3>Portfolio</h3> 
+        <div class="port-cols">
+        <table>
+          <tr>              
+            <th colspan="4"><center>some recent projects </center></th>
+          </tr>
         
-        <li><a href="http://www.vibranthealthevolution.com"><div class="caption">Vibrant Health Evolution</div><img src="http://via.placeholder.com/140x100"></a></li>
-        
+        <tr>
+          <td>Sound Business Inc.</td>
+          <td>MFD-Law.com</td>
+          <td>Vibrant Health Evolution</td>
+          <td>Tiffany Pinero Style</td>
+        </tr>
 
-        <li><a href="http://soundbusiness.org"><div class="caption">Sound Business Inc.</div><img src="http://via.placeholder.com/140x100"></a></li>  
-        
+        <tr>
+          <td><a href="http://soundbusiness.org"><img src="http://via.placeholder.com/140x100"></a></td>
 
-        <li><a href="http://www.tiffanypinero.com"><div class="caption">Tiffany Pinero Style</div><img src="http://via.placeholder.com/140x100"></a></li> 
-       
+          <td><a href="mfd-law.com"><img src="http://via.placeholder.com/140x100"></a></td>
 
-        <li><a href="mfd-law.com"> MFD-law.com <img src="http://via.placeholder.com/140x100"></a></li>
-      
-      </ul>
+          <td><a href="http://www.vibranthealthevolution.com"><img src="http://via.placeholder.com/140x100"></a></td>
+
+
+          <td><a href="http://www.tiffanypinero.com"><img src="http://via.placeholder.com/140x100"></a></td>
+        </tr>
+          
+        </table>
+        </div> 
     </div> 
 
 <!--Contact Form -->
     <div id="contact-section"> 
-      <h2>Contact Me</h2>
-      <h1>Elegant Contact Form</h1>
+      <h3>Contact Me</h3>
+      
 <form>
   <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" id="email">
   </div>
   <div class="form-group">
-    <label for="pwd">Password:</label>
+    <label for="Name">Name:</label>
     <input type="password" class="form-control" id="pwd">
   </div>
   <div class="checkbox">

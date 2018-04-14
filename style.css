@@ -198,3 +198,7 @@ left: -375px;
 background-color: #23527C; 
 }
 
+div#t1, div#t2, div#t3, div#t4, div#t5, div#t6, div#t7, div#t8, div#t9{ 
+visibility: hidden; 
+}
+
